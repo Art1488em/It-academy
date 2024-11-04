@@ -1,0 +1,43 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10dvh;
+
+
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: #7dba28;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        transition: .4s ease;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #5a8222;
+        }
+    }
+}
+nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+
+    a{
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+        padding: 10px;
+        border-bottom: 2px solid transparent;
+
+        &:hover{
+            border-bottom: 2px solid #333;
+        }
+    }
+}
+
